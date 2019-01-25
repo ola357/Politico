@@ -1,10 +1,12 @@
 body{
-    margin: 0;
+    margin: auto;
 }
 /* styling for the navigation */
 .topnav {
     overflow: hidden;
     background-color: #333;
+    opacity: 0.8;
+    margin: 0%;
   }
   
   .topnav a {
@@ -57,6 +59,15 @@ body{
       display: block;
       text-align: left;
     }
+  }
+  /* styling for banner */
+  .banner{
+      background-image: url('../images/banner2.jpeg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 70vh;
+      
   }
 
   /* styling for the footer */
