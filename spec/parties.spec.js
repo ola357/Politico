@@ -2,7 +2,7 @@ const request = require('supertest');
 
 let server;
 
-describe('/api/parties', () => {
+describe('/api/v1/parties', () => {
   beforeEach(() => {
     // eslint-disable-next-line global-require
     server = require('../app');
