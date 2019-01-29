@@ -142,8 +142,8 @@ nav ul li a:hover {
 /*###############Banner################*/
 
 #banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("ui/images/banner-img.jpeg");
-  background-image: url('/ui/images/banner8.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/ui/images/banner-img.jpeg");
+  /* background-image: url('/ui/images/banner8.jpg'); */
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
