@@ -142,8 +142,8 @@ nav ul li a:hover {
 /*###############Banner################*/
 
 #banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-  url('Politico/ui/images/products-2.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-image: url("/banner-img.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
