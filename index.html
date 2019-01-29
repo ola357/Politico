@@ -4,37 +4,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- style for home page -->
-    <link rel="stylesheet" href="ui/css/index.css">
-     <!-- font awesome -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <!-- script for home page -->
-    <script src="ui/scripts/index.js"></script>
     <title>Politico</title>
+<!--  main.css-->
+<link rel="stylesheet" href="ui/css/main.css">
+<!--  font awesome icons-->
+<link rel="stylesheet" href="ui/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- icomoon -->
+<link rel="stylesheet" href="ui/icomoon(4)/style.css">
+<!--  Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
-    <!-- banner -->
-    <div class="banner">
-        <!-- navigation -->
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active left">Politico</a>
-            <a href="#news" class="left">How It Works</a>
-            <a href="#contact" class="left">Contact Us</a>
-            <a href="javascript:void(0);" class="icon" onclick="navigation()">
-              <i class="fa fa-bars"></i>
-            </a>
-            <a href="#" class="active right">Log In</a>
-            <a href="#" class="right">Sign Up</a>
-        </div>
+<header id="header">
+  <!--  nav-->
+  <nav>
+    <div id="nav-top">
+      <h3>Politico</h3>
+      <div id="menu-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </div>
-    <!-- Footer -->
-    <div class="footer-can">
-        <ul class="footer-links">
-            <li>Support</li>
-            <li>Terms of Service</li>
-            <li>Privacy Policy</li>
-        </ul>
-        <p>Andela Developer Challenge Cycle 41</p>
+    <!--  nav links-->
+    <ul id="links">
+      <li><a href="#">How It Works</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="signup.html">SIGN UP</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+      <!-- <li class="icon"><a href="#" class="link-icon"><i class="fa fa-search"></i></a></li> -->
+
+    </ul>
+  </nav>
+  <!--  endnav-->
+  <section id="banner">
+    <div id="banner-box">
+      <h1 id="banner-title">Lorem Ipsum</h1>
+      <div class="banner-underline"></div>
+      <h3 class="banner-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
+      <a href="#"><i class="fas fa-vote-yea">Lorem</i></a>
     </div>
+  </section>
+</header>
+<!--end of header-->
+<!--skills section-->
+<section id="skills">
+  <!--  title-->
+  <div class="title">
+    <h1 class="title-text">How It Works</h1>
+    <div class="title-underline"></div>
+  </div>
+  <!--  end of title-->
+  <div class="skills-center">
+    <article class="skill">
+      <span class="icon-number3 fa"></span>
+      <h3>Lorem</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+    </article>
+    <article class="skill">
+      <span class="icon-number1 fa"></span>
+      <h3>Lorem</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+    </article>
+    <article class="skill">
+      <span class="icon-number2 fa"></span>
+      <h3>Lorem</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+    </article>
+    <article class="skill">
+        <span class="icon-number fa"></span>
+      <h3>Lorem</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+    </article>
+
+  </div>
+
+
+
+
+</section>
+<!--end of skills section-->
+<!-- user reviews -->
+<section id="customers">
+  <!--  title-->
+  <div class="title">
+    <h1 class="title-text">Reviews</h1>
+    <div class="title-underline"></div>
+  </div>
+  <!--  end of title-->
+  <div class="customers-center">
+    <article class="customer">
+      <img src="ui/images/team-1.jpg">
+      <h3>John Doe</h3>
+      <h5>Lagos</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, deleniti doloribus illo, ratione sequi qui.</p>
+    </article>
+    <article class="customer">
+      <img src="ui/images/team-2.jpg">
+      <h3>John Doe</h3>
+      <h5>Abuja</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, deleniti doloribus illo, ratione sequi qui.</p>
+    </article>
+    <article class="customer">
+      <img src="ui/images/team-3.jpg">
+      <h3>John Doe</h3>
+      <h5>Kaduna</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, deleniti doloribus illo, ratione sequi qui.</p>
+    </article>
+  </div>
+</section>
+
+<!--end of user reviews-->
+
+<!--contact form-->
+<section id="contact">
+  <!--  title-->
+  <div class="title">
+    <h1 class="title-text">Contact Us</h1>
+    <div class="title-underline"></div>
+  </div>
+  <!--  end of title-->
+  <div class="contact-center">
+    <article id="company-info">
+      <div class="item-info">
+        <i class="fa fa-map-marker"></i>
+        <p>10 Some Street Drive</p>
+      </div>
+      <div class="item-info">
+        <i class="fa fa-phone"></i>
+        <p>12345789</p>
+      </div>
+      <div class="item-info">
+        <i class="fa fa-envelope"></i>
+        <p>email@email.com</p>
+      </div>
+      <div class="item-info">
+        <i class="fa fa-clock-o"></i>
+        <p>24/7</p>
+      </div>
+    </article>
+    <article id="customer-info">
+      <form class="form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="subject" placeholder="Subject">
+        <input type="text" id="message" placeholder="Message">
+      </form>
+      <a href="#"><i class="fa fa-envelope"></i>Send Message</a>
+    </article>
+  </div>
+
+</section>
+
+
+<!--end of contact form-->
+ <!-- footer section-->
+<footer>
+    <div class="footer-icons">
+      <a href="#"><span class="icon-facebook2"></span></a><a href="#"><span class="icon-instagram"></span></a><a href="#"><span class="icon-twitter"></span></a>
+    </div>
+    <p>Copyright@Politico</p>
+</footer>
+
+
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="ui/js/script.js"></script>
 </body>
+
 </html>
