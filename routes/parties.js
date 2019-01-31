@@ -10,7 +10,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
   console.log(parties);
   console.log("***********************################*********");
-  console.log(res);
+  // console.log(res);
   res.send({ status: 200, data: parties });
 });
 
