@@ -4,7 +4,7 @@
   "description": "Politico enables citizens give their mandate to politicians running for different government offices while building trust in the process through transparency.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha --timeout=3000"
+    "test": "nyc mocha --timeout=10000"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "nyc": "^13.1.0"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "joi": "^14.3.1"
   }
 }
