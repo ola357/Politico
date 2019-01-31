@@ -8,7 +8,8 @@
 <!--  main.css-->
 <link rel="stylesheet" href="ui/css/main.css">
 <!--  font awesome icons-->
-<link rel="stylesheet" href="ui/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="ui/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <!-- icomoon -->
 <link rel="stylesheet" href="ui/icomoon(4)/style.css">
 <!--  Google Fonts-->
@@ -29,11 +30,10 @@
     </div>
     <!--  nav links-->
     <ul id="links">
-      <li><a href="#">How It Works</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="signup.html">SIGN UP</a></li>
-      <li><a href="login.html">LOGIN</a></li>
+      <li id="how" class="a"><a href="#skills">How It Works</a></li>
+      <span></span>
+      <li id="signup" class="a b"><a href="signup.html">SIGN UP</a></li>
+      <li id="login" class="a b"><a href="login.html">LOGIN</a></li>
       <!-- <li class="icon"><a href="#" class="link-icon"><i class="fa fa-search"></i></a></li> -->
 
     </ul>
@@ -41,10 +41,10 @@
   <!--  endnav-->
   <section id="banner">
     <div id="banner-box">
-      <h1 id="banner-title">Lorem Ipsum</h1>
+      <h1 id="banner-title">The Easiest Way to Election Excellence</h1>
       <div class="banner-underline"></div>
-      <h3 class="banner-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
-      <a href="#"><i class="fas fa-vote-yea">Lorem</i></a>
+      <h3 class="banner-subtitle">Politico ensures election integrity, saves serious hours and improves turnout for remote voting </h3>
+      <a href="login.html"><i class="fas fa-vote-yea">Cast Your Vote</i></a>
     </div>
   </section>
 </header>
@@ -60,23 +60,23 @@
   <div class="skills-center">
     <article class="skill">
       <span class="icon-number3 fa"></span>
-      <h3>Lorem</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+      <h3>Log in</h3>
+      <p>Create an account and log in, Each voter has a unique id and can only vote once</p>
     </article>
     <article class="skill">
       <span class="icon-number1 fa"></span>
-      <h3>Lorem</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+      <h3>Select</h3>
+      <p>View your candidates and offices they are contesting for</p>
     </article>
     <article class="skill">
       <span class="icon-number2 fa"></span>
-      <h3>Lorem</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+      <h3>Vote</h3>
+      <p>Cast your ballot for candidate of your choice</p>
     </article>
     <article class="skill">
         <span class="icon-number fa"></span>
-      <h3>Lorem</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse ducimus obcaecati unde voluptates totam.</p>
+      <h3>Results</h3>
+      <p>After Elections are concluded, results and winners are declared instantly</p>
     </article>
 
   </div>
@@ -86,85 +86,11 @@
 
 </section>
 <!--end of skills section-->
-<!-- user reviews -->
-<section id="customers">
-  <!--  title-->
-  <div class="title">
-    <h1 class="title-text">Reviews</h1>
-    <div class="title-underline"></div>
-  </div>
-  <!--  end of title-->
-  <div class="customers-center">
-    <article class="customer">
-      <img src="ui/images/team-1.jpg">
-      <h3>John Doe</h3>
-      <h5>Lagos</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, deleniti doloribus illo, ratione sequi qui.</p>
-    </article>
-    <article class="customer">
-      <img src="ui/images/team-2.jpg">
-      <h3>John Doe</h3>
-      <h5>Abuja</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, deleniti doloribus illo, ratione sequi qui.</p>
-    </article>
-    <article class="customer">
-      <img src="ui/images/team-3.jpg">
-      <h3>John Doe</h3>
-      <h5>Kaduna</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, deleniti doloribus illo, ratione sequi qui.</p>
-    </article>
-  </div>
-</section>
-
-<!--end of user reviews-->
-
-<!--contact form-->
-<section id="contact">
-  <!--  title-->
-  <div class="title">
-    <h1 class="title-text">Contact Us</h1>
-    <div class="title-underline"></div>
-  </div>
-  <!--  end of title-->
-  <div class="contact-center">
-    <article id="company-info">
-      <div class="item-info">
-        <i class="fa fa-map-marker"></i>
-        <p>10 Some Street Drive</p>
-      </div>
-      <div class="item-info">
-        <i class="fa fa-phone"></i>
-        <p>12345789</p>
-      </div>
-      <div class="item-info">
-        <i class="fa fa-envelope"></i>
-        <p>email@email.com</p>
-      </div>
-      <div class="item-info">
-        <i class="fa fa-clock-o"></i>
-        <p>24/7</p>
-      </div>
-    </article>
-    <article id="customer-info">
-      <form class="form">
-        <input type="text" id="name" placeholder="Name">
-        <input type="email" id="email" placeholder="Email">
-        <input type="text" id="subject" placeholder="Subject">
-        <input type="text" id="message" placeholder="Message">
-      </form>
-      <a href="#"><i class="fa fa-envelope"></i>Send Message</a>
-    </article>
-  </div>
-
-</section>
 
 
-<!--end of contact form-->
+
  <!-- footer section-->
 <footer>
-    <div class="footer-icons">
-      <a href="#"><span class="icon-facebook2"></span></a><a href="#"><span class="icon-instagram"></span></a><a href="#"><span class="icon-twitter"></span></a>
-    </div>
     <p>Copyright@Politico</p>
 </footer>
 

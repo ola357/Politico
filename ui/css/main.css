@@ -74,7 +74,28 @@ nav ul li a:hover {
   cursor: pointer;
   align-self: center;
 }
-
+  /* .bar1 {
+  transform: rotate(-45deg) translate(-7px, 6px);
+  height: 5px;
+  width: 35px;
+  background-color: #2b98f0;
+  margin: 5px 0;
+}
+ .bar2 {
+  opacity: 0;
+  height: 5px;
+  width: 35px;
+  background-color: #2b98f0;
+  margin: 5px 0;
+}
+  .bar3 {
+  transform: rotate(45deg) translate(-7px, -8px);
+  height: 5px;
+  width: 35px;
+  margin: 5px 0;
+  background-color: #2b98f0;
+  2240011
+} */
 .bar1,
 .bar2,
 .bar3 {
@@ -113,20 +134,19 @@ nav ul li a:hover {
     /*    important*/
     flex-wrap: wrap;
   }
-  nav ul li {
+  nav ul li .a{
     flex: 1 0 125px;
   }
-  nav ul .icon {
-    flex: 0 0 20px;
+  /* nav ul li #signup #login{
+    align-self: flex-end
   }
-  nav ul li .link-icon {
-    color: #f5f5f5;
-    background: #395e7e;
-
+  nav ul li #how{
+    align-self: flex-start
+  } */
+  nav ul span{
+    flex: 3 0 300px;
   }
-  nav ul li .link-icon:hover {
-    background: #008dff
-  }
+  
   nav ul a {
     text-align: center;
 
@@ -138,12 +158,25 @@ nav ul li a:hover {
     padding: 10px;
   }
 }
+@media screen and (min-width:650px){
+  nav ul span{
+    flex: 3 0 100px;
+  }
+}
+@media screen and (min-width:800px){
+  nav ul span{
+    flex: 3 0 100px;
+  }
+  nav ul li .b{
+    flex: 0 0 125px;
+  }
+}
 
 /*###############Banner################*/
 
 #banner {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-  background-image: url("../images/banner-img.jpeg");
+  background-image: url("../images/vote1.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -404,7 +437,7 @@ form input::placeholder {
 /*###########footer############*/
 
 footer {
-  background: #0d1317;
+  background: #0247FE;
   padding: 30px 0;
   text-align: center
 }
