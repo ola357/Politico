@@ -39,12 +39,11 @@ router.post('/', (req, res) => {
 
   const office = {
     id: offices.length + 1,
+    type: req.body.type,
     name: req.body.name,
-    hqAddress: req.body.hqAddress,
-    logoUrl: req.body.logoUrl,
   };
   offices.push(office);
-  res.send({ status: 200, data: [{ id: office.id, name: office.name }] });
+  res.send({ status: 200, data: [{ id: office.id, type: office.type, name: office.name }] });
 });
 
 function validateOffice(office) {
